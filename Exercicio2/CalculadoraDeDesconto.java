@@ -13,7 +13,6 @@ public class CalculadoraDeDesconto{
         float vlDesconto = (produto * desconto / 100);
         float precoFinal =  produto - vlDesconto;
 
-        //Lógica para calcular o desconto
         System.out.print("O valor original do produto é: " + produto +
                          " reais, o valor do desconto foi de: " + vlDesconto+
                          " reais e o preço final é: " + precoFinal + "\n");
